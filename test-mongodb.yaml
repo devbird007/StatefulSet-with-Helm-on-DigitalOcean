@@ -1,0 +1,10 @@
+# This is a values file to work
+# with a mongodb helm chart
+
+architecture: replicaset
+replicaCount: 3
+persistence:
+  storageClass: "do-block-storage"
+auth:
+  rootPassword: secret-root-pwd
+
