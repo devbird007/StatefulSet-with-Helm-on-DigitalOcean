@@ -1,0 +1,8 @@
+# This is values file for the
+# deployment on linode
+architecture: replicaset
+replicaCount: 3
+persistence:
+  storageClass: "linode-block-storage"
+auth:
+  rootPassword: secret-root-pwd

@@ -7,4 +7,3 @@ persistence:
   storageClass: "do-block-storage"
 auth:
   rootPassword: secret-root-pwd
-
