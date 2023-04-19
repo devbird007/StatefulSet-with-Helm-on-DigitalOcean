@@ -9,7 +9,8 @@ spec:
   - host: 188.166.134.142
     http:
       paths:
-      - pathType: Prefix 
+      - path: /
+        pathType: Prefix 
         backend:
           service:
             name: mongo-express-service
