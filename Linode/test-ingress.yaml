@@ -6,7 +6,7 @@ metadata:
   name: mongo-express
 spec:
   rules:
-  - host: 143-42-254-110.ip.linodeusercontent.com
+  - host: 212-71-236-248.ip.linodeusercontent.com
     http:
       paths:
       - path: /
